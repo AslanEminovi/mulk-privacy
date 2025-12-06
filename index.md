@@ -25,9 +25,9 @@ Mülk ("we", "our", or "us") is a real estate portfolio management app developed
 - Crash reports (to fix bugs)
 
 ### Location Data
-- We access your location **only when you explicitly grant permission** to:
-  - Add properties to the map
-  - Show your properties on the map view
+We access your location **only when you explicitly grant permission** to:
+- Add properties to the map
+- Show your properties on the map view
 
 ## How We Use Your Information
 
@@ -38,21 +38,33 @@ We use your information solely to:
 - Improve app performance and fix bugs
 - Process subscription payments (via Apple)
 
+## AI Portfolio Assistant
+
+Mülk includes an AI-powered assistant that can answer questions about your portfolio. When you use this feature:
+
+- Your portfolio data (property values, rental income, etc.) is sent to OpenAI’s API to generate personalized insights
+- OpenAI processes this data solely to respond to your queries
+- OpenAI does **not** store your data and does **not** use API data to train their models
+- You can use the app without the AI feature if you prefer not to share data with OpenAI
+
+For more information, see OpenAI’s API Data Usage Policy.
+
 ## Data Sharing
 
-**We do NOT share your personal data with any third parties.**
+**We do NOT share your personal data with any third parties for marketing or advertising purposes.**
 
 Your data is stored securely and is never sold, rented, or shared with:
 - Advertisers
 - Data brokers
 - Marketing companies
-- Any other third parties
 
 ### Service Providers
+
 We use the following services only for app functionality:
 - **Supabase**: Secure database and authentication (your data is encrypted)
 - **Apple**: App Store and subscription processing
 - **RevenueCat**: Subscription management (only processes payment status, not your portfolio data)
+- **OpenAI**: AI assistant feature (processes portfolio data only when you use the AI chat)
 
 ## Data Storage & Security
 
@@ -77,7 +89,7 @@ To exercise these rights, contact us at: **eminoviaslan@gmail.com**
 - When you delete your account, all data is permanently removed within 30 days
 - We do not keep backups of deleted data
 
-## Children's Privacy
+## Children’s Privacy
 
 Mülk is not intended for users under 18 years of age. We do not knowingly collect data from children.
 
